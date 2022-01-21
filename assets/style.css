@@ -1,0 +1,80 @@
+/* ********************* */
+/* **** base styles **** */
+/* ********************* */
+
+body {
+  background-color: whitesmoke;
+  box-sizing: border-box;
+}
+
+header {
+  margin-top: 50px;
+}
+
+header > * {
+  margin: 0 auto;
+  padding: 5px 0;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 45px;
+}
+
+/* images */
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* text */
+p {
+  max-width: 75ch;
+}
+
+/* ******************** */
+/* **** containers **** */
+/* ******************** */
+
+.article-container {
+  margin: 0px 20px;
+  margin-top: 50px;
+  border: 5px solid;
+  padding: 10px 15px;
+}
+
+.img-wrapper {
+  max-width: 500px;
+}
+
+.text-box {
+  width: 15ch;
+  border: 3px solid black;
+  padding: 20px 25px;
+}
+
+/* ******************* */
+/* **** utilities **** */
+/* ******************* */
+
+/* colors */
+.bg-red {
+  background-color: coral;
+}
+.bg-blue {
+  background-color: blue;
+}
+
+/* layout */
+.margin-auto {
+  margin: 0 auto;
+}
+.text-center {
+  text-align: center;
+}
+
+/* text */
+.underline {
+  text-decoration: underline;
+}
